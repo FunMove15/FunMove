@@ -1,0 +1,39 @@
+[
+  {
+    "nome": "Inácio Silva",
+    "funcao": "Owner",
+    "foto": "assets/images/coachs/Inacio.jpg",
+    "instagram": "https://www.instagram.com/inacio_funmove/",
+    "facebook": "https://www.facebook.com/inacio15"
+  },
+  {
+    "nome": "José Monteiro",
+    "funcao": "Coach",
+    "foto": "assets/images/coachs/Ze.jpg",
+    "instagram": "https://instagram.com/zepedrolm/"
+  },
+  {
+    "nome": "Rui Cunha",
+    "funcao": "Coach",
+    "foto": "assets/images/coachs/Rui.jpg",
+    "instagram": "https://instagram.com/ruicunha_ptrainer/"
+  },
+  {
+    "nome": "Samuel Silva",
+    "funcao": "Coach",
+    "foto": "assets/images/coachs/Samu.jpeg",
+    "instagram": "https://instagram.com/euosamu/"
+  },
+  {
+    "nome": "Joana Cruz",
+    "funcao": "Pilates Coach",
+    "foto": "assets/images/coachs/pilates.jpg",
+    "instagram": "https://www.instagram.com/joanacmcruz/"
+  },
+  {
+    "nome": "Teresa Ferreira",
+    "funcao": "Nutricionista",
+    "foto": "assets/images/coachs/Nutri.jpg",
+    "instagram": "https://www.instagram.com/teresacferreira/"
+  }
+]
