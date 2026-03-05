@@ -1,39 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <title>FunMove – Em Manutenção</title>
-    <style>
-        body {
-            background: #000;
-            color: #fff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 20%;
-        }
-        a {
-            color: #ff4d4d;
-            font-weight: bold;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <title>FunMove – Treino Funcional em Guardizela</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
+
 <body>
-    <!-- LOGO --> <img src="img/FunMove Fitness Community.png" alt="FunMove Logo">
-    
-    <h1>Estamos a preparar algo incrível!</h1>
-    <p>O site FunMove está temporariamente em manutenção.</p>
-     <p>Mais informações aqui:  
-        <a href="https://linktr.ee/funmove" target="_blank">
-            Informações e Marcações FunMove
-        </a>
-    <p>Segue-nos aqui:  
-        <a href="https://www.instagram.com/funmove" target="_blank">
-            Instagram FunMove
-        </a>
-    </p>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">FunMove</a>
+      <nav class="main-nav">
+        <a href="about.html">Sobre</a>
+        <a href="classes.html">Aulas</a>
+        <a href="contact.html">Contacto</a>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Treino funcional para pessoas reais.</h1>
+          <p>Força, condicionamento e comunidade em Guardizela. Evolui com treinos seguros, intensos e adaptados ao teu nível.</p>
+
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Aula experimental</a>
+            <a href="classes.html" class="btn btn-ghost">Ver treinos</a>
+          </div>
+        </div>
+
+        <div class="hero-media">
+          <!-- Vídeo (troca facilmente) -->
+          <video src="assets/video/hero.mp4" autoplay muted loop playsinline></video>
+
+          <!-- Ou imagem (descomentar se preferires imagem)
+          <img src="assets/img/hero1.jpg" alt="Treino FunMove">
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA DESTACADA -->
+    <section class="gallery">
+      <div class="container">
+        <h2 class="section-title">Momentos FunMove</h2>
+
+        <div class="gallery-grid">
+          <img src="assets/img/gallery1.jpg" alt="Treino 1">
+          <img src="assets/img/gallery2.jpg" alt="Treino 2">
+          <img src="assets/img/gallery3.jpg" alt="Treino 3">
+          <img src="assets/img/gallery4.jpg" alt="Treino 4">
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section class="highlights">
+      <div class="container highlights-grid">
+        <div class="highlight-card">
+          <h3>Treino guiado</h3>
+          <p>Coaches atentos, correção técnica e progressões para todos os níveis.</p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Comunidade</h3>
+          <p>Um ambiente onde toda a gente puxa por ti e celebra as tuas conquistas.</p>
+        </div>
+
+        <div class="highlight-card">
+          <h3>Resultados reais</h3>
+          <p>Mais força, mais energia e mais confiança no teu dia a dia.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECÇÃO SOBRE -->
+    <section class="about-preview">
+      <div class="container about-grid">
+        <div class="about-img">
+          <img src="assets/img/hero2.jpg" alt="Sobre FunMove">
+        </div>
+
+        <div class="about-text">
+          <h2>Treinar na FunMove</h2>
+          <p>Somos uma comunidade focada em treinos funcionais, força e condicionamento. Acreditamos em treinar bem, com técnica, intensidade e boa energia.</p>
+          <a href="about.html" class="btn btn-primary">Saber mais</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COACHES -->
+    <section class="coaches">
+      <div class="container">
+        <h2 class="section-title">Os teus coaches</h2>
+
+        <div class="coaches-grid">
+          <div class="coach-card">
+            <img src="assets/img/coach1.jpg" alt="Coach 1">
+            <h3>Coach João</h3>
+            <p>Especialista em força e mobilidade.</p>
+          </div>
+
+          <div class="coach-card">
+            <img src="assets/img/coach2.jpg" alt="Coach 2">
+            <h3>Coach Inácio</h3>
+            <p>Treino funcional e performance.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="cta-strip">
+      <div class="container cta-inner">
+        <h2>Pronto para começar?</h2>
+        <p>Reserva já a tua primeira sessão e descobre o que é treinar na FunMove.</p>
+        <a href="contact.html" class="btn btn-primary">Entrar em contacto</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> FunMove. Todos os direitos reservados.</p>
+      <p class="footer-small">Guardizela · Braga · Portugal</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
 </body>
 </html>
