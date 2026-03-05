@@ -1,1 +1,120 @@
 
+/* ------------------------------ BASE ------------------------------ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* ------------------------------ HEADER ------------------------------ */
+
+header {
+  background: #111;
+  padding: 20px 0;
+}
+
+nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff4d4d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ff4d4d;
+}
+
+/* ------------------------------ HERO ------------------------------ */
+
+.hero {
+  padding: 120px 20px;
+  text-align: center;
+  background: #ff4d4d;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+/* ------------------------------ FAQ ------------------------------ */
+
+.faq-section {
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.faq-item {
+  padding: 15px 20px;
+  background: #f3f3f3;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.faq-item:hover {
+  background: #ffecec;
+}
+
+/* ------------------------------ FOOTER ------------------------------ */
+
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+}
+
+/* ------------------------------ RESPONSIVE ------------------------------ */
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+  }
+}
